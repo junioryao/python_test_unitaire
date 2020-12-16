@@ -1,28 +1,14 @@
-# Test scraping python
-## Before starting
- * Fork the project in your namespace
- * **Caution! very important:** Change project visibility: 
-   * Click on `Settings` bottom left, when you see your project 
-   * Select `General`
-   * Click on expend `Visibility, project features, permissions` 
-   * Change project visibility from public to private
-## After pushing your codes
- * Add it@dataimpact.fr as **reporter** in `members`
- * Answer the email with your project link in it 
- 
+
 # Test
 Some really important tips:
  * Comments and automated tests are a big plus
  * You might need pytest (and you can use any other package)
- * There are three parts (algorithm, advanced, scraping) you can choose to skip one.
- * You can use internet
+ * There are three parts (algorithm, advanced)
  
 
 ## First Part (python algorithm)
 
 ### Exercise 1
-(I repeat myself I will not correct your test if you don't change visibility of the project from public to private, so please start with this)
-
 
 In the function exercise_one on first_part.src module:
 print every number between 1 and 100 as follows:
