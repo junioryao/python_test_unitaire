@@ -99,33 +99,3 @@ Write the metaclass `MetaInherList` so that the class `ForceToList` inherits fro
 ### Exercise 6 (15 min)
 Create a metaclass that checks if classes have an attribute named 'process' which must be a method taking 3 arguments
 
-## Third Part (scraping)
-
-### Exercise 1 (5 min)
-Create a function http_request that sends a post request to this url https://httpbin.org/anything with this parameters:
-```msg=welcomeuser
-isadmin=1
-```
-and return the response body.
-Now, send the same request this time by changing the user-agent
-
-### Exercise 2 (20 min)
-In src module, create a python class with the following constraints:
-  * it imports the data.json.gz file which is located in the third_part/data folder. The file holds information about a category including the products.
-  * it prints each available product in this particular format:
-“You can buy Product_Name at our store at Product_Price”
-where :
-    - Product_Name is the product name truncated at 30 .
-    - Abbotts Village Bakery Ghrainy Wolemeal 850g ==> Abbotts Village Bakery Grainy
-    - Product_Price is the rounded product price in dd.d format
-    - Example: 13.34 ==> 13.3
-
-  * if the product is unavailable, it logs the product id and product name.
-  * if a clue of the product’s availability can’t be found, it logs an error.
-  * it saves the available products in a csv file.
-###### P.S :
-
-  * Use any tool/language/method/website to find the products in the json file.
-  * To "truncate" means "to shorten by cutting off the top or end".
-
-
